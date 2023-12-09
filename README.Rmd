@@ -1,0 +1,17 @@
+---
+title: "Notes on *Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan*"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = "#>", dpi = 500)
+```
+
+## Introduction
+
+This is a repository for my notes on *Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan* by John Kruschke.
+As I have some experience with the topic by working through Richard McElreath's [*Statistical Rethinking*](https://github.com/jhrcook/statistical-rethinking), I may skip a few sections or chapters.
+
+## Notes
+
+[Ch 2. Introduction: Credibility, Models, and Parameters](ch02_introduction-credibility-models-and-parameters.md)

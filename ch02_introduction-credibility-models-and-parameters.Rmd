@@ -1,0 +1,28 @@
+---
+title: "Ch 2. Introduction: Credibility, Models, and Parameters"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = "#>", dpi = 500)
+
+library(jhcutils)
+library(mustashe)
+library(glue)
+library(tidyverse)
+library(conflicted)
+
+walk(list.files("src", full.names = TRUE, pattern = "R$"), source)
+
+theme_set(theme_minimal(base_size = 11, base_family = "Arial"))
+
+set.seed(0)
+```
+
+## 2.3. The steps of Bayesian data analysis
+
+1. Identify the data relevant to the research questions.
+2. Define a descriptive model for the relevant data.
+3. Specify a prior distribution on the parameters.
+4. Use Bayesian inference to re-allocate credibility across parameter values.
+5. Check that the posterior predictions mimic the data with reasonable accuracy ("posterior predictive check").
